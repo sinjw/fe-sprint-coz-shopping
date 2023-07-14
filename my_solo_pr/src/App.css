@@ -6,7 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+Header {
+  z-index: 99;
+}
+Body {
+  z-index: -10;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

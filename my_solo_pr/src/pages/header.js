@@ -17,7 +17,7 @@ const Header = () => {
     console.log(openModal);
   };
   return (
-    <div>
+    <div className="Header">
       <div className="headerWrap">
         <ul className="headerContainer">
           <li>
